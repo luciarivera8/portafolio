@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #EC4399;
+}
+header{
+    background-color: #FAB7DF;
+	font-family: 'Dancing Script', cursive;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+.header-area.sticky {
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+.header-area.sticky .navbar-light{
+	background-color: #eee !important;
+}
+#hero{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 30px 0;
+}
+.titulo{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	color: #EC4399;
+	text-align: center;
+	margin-top: 90px;
+}
+.parrafo{
+	margin-left: -10%;
+	margin-right: -10%;
+	margin-bottom: 50px;
+	color: #8B1BAB;
+	text-align: center;
+	padding: 30px 0;
+}
+.titulo2{
+	font-family: 'Dancing Script', cursive;
+	font-size: 65px;
+	color: #EC4399;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding: 10px 0;
+}
+.titulo-s2{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 65px;
+	padding: 40px 0;
+}
+.iconitos{
+	color: #EC4399;
+	font-size: 100px;
+	text-align: center;
+	margin-left: 35%;
+	margin-right: 10%;
+}
+#servicios{
+	background-color: #B2ECF9;
+	padding: 50px 0;
+}
+.texto-iconitos{
+	color: #8B1BAB;
+	text-align: center;
+	margin-left: 6%;
+}
+#contact{
+	background-color: #FAD8EA;
+}
+.contact-icon{
+	color: #8B1BAB;
+	font-size: 35px;
+}
+.btn-lu{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #EC4399;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 30px;
+	padding: 10px 30px;
+}
+.titulofinal{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 65px;
+	padding: 40px 0;
+}
+.img-description{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 20px;
+}
+footer{
+	font-family: 'Dancing Script', cursive;
+	background-color: #FABFE7;
+	text-align: center;
+	font-size: 16px;
+	padding: 30px 0;
+}
+
+
